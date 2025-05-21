@@ -1,5 +1,5 @@
 # 📒 Rubrica Telefonica in Java
-Un'applicazione da terminale scritta in Java che permette di gestire una rubrica di contatti.  
+Applicazione da terminale scritta in Java che permette di gestire una rubrica di contatti.  
 Supporta l'aggiunta, rimozione, ricerca, visualizzazione e salvataggio/caricamento dei contatti da un file `.txt`.
 
 ## 🚀 Funzionalità
@@ -13,3 +13,11 @@ Supporta l'aggiunta, rimozione, ricerca, visualizzazione e salvataggio/caricamen
 ## 💾 Formato file di testo
 Ogni riga rappresenta un contatto nel seguente formato:
 Nome | Numero | Email
+
+## 🧱 Struttura del progetto
+- `Main.java` – contiene il menù e la logica principale dell'app
+- `Contatto.java` – classe per rappresentare un contatto
+- `Rubrica.java` – classe Singleton che gestisce la lista dei contatti
+
+# Requisiti
+Java JDK 8 o superiore
